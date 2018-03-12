@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e html,js,css index.js"
+    "start": "nodemon -e html,js,css app.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,8 @@
     "morgan": "^1.9.0",
     "nodemon": "^1.17.1",
     "nunjucks": "^3.1.2",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pg": "^6.4.2",
+    "sequelize": "^4.36.0"
   }
 }
